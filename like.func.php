@@ -1,7 +1,7 @@
 <?php 
 /* Enqueue scripts for dislike system */
 function liker() {
-	wp_enqueue_script( 'idev_like_post', plugins_url( 'js/post-like.js' , __FILE__ ), array('jquery'), '1.0', 1 );
+	wp_enqueue_script( 'idev_like_post', plugins_url( 'liker.ajax.js' , __FILE__ ), array('jquery'), '1.0', 1 );
 	wp_localize_script( 'idev_like_post', 'ajax_var', array(
 		'url' => admin_url( 'admin-ajax.php' ),
 		'nonce' => wp_create_nonce( 'ajax-nonce' )
