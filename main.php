@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Like Dislike counter for post, pages & comments
+Plugin Name: iDev WordPress Like Dislike Counter
 Plugin URI: https://github.com/alijange/idev-wordpress-like-dislike-counter/
 Description: Like dislike counter for posts and comments
 Author: Ehtasham Nasir
@@ -38,12 +38,12 @@ function ldc_get_version(){
 
 function ldc_lite_enqueue_css(){
 	if(!is_admin()){
-		wp_register_style($handle = 'like-dislike', plugins_url( 'css/like-dislike-counter-styles.css' , __FILE__ ), $deps = array(), $ver = '1.0.0', $media = 'all');
+		wp_register_style($handle = 'like-dislike', plugins_url( 'like-dislike-counter-styles.css' , __FILE__ ), $deps = array(), $ver = '1.0.0', $media = 'all');
 		wp_enqueue_style('like-dislike');
 	}
 }
 add_action('wp_print_styles', 'ldc_lite_enqueue_css');
 
 
-require_once('post-like.php');
-require_once('post-unlike.php');
+require_once('like.func.php');
+require_once('dislike.func.php');
