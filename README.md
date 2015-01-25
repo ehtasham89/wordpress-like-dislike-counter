@@ -7,4 +7,10 @@ We are trying to develop best and use full plugins for large number of WordPress
 
 Thanks you using 'idev-wordpress-like-dislike-counter' plugin
 
+Demo: http://leaddaway.com/thomas/forex-trading/
+
 Author Email: alijan.idevstudio@gmail.com
+
+Credit: http://hofmannsven.com/2013/laboratory/wordpress-post-like-system/
+
+
