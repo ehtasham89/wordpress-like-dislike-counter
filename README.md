@@ -9,7 +9,7 @@ Thanks you using 'idev-wordpress-like-dislike-counter' plugin
 
 Demo: http://leaddaway.com/thomas/forex-trading/
 
-Author Email: alijan.idevstudio@gmail.com
+Author Email: ehtasham.nasir89@gmail.com
 
 Credit: http://hofmannsven.com/2013/laboratory/wordpress-post-like-system/
 
